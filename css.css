@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'SangSangRock';
+    src: url('https://gcore.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/SangSangRockOTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333333;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    border: none;
+    background-color: initial;
+}
+
+/** header **/
+
+header{
+    position: fixed;
+    background-color: #00000045;
+    width: 100vw;
+    height: 140px;
+    border-bottom: 1px solid #ffffff;
+    text-align: center;
+    display: flex;
+    z-index: 99;
+}
+
+#header_wrap{
+    width: 1280px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header_wrap li{
+    width: 180px;
+}
+
+.header_menu_text{
+    font-size: 36px;
+    font-family: 'SangSangRock';
+    color: #ffffff;
+    transition: 0.2s ease-in-out;
+}
+
+.header_menu_text:hover{
+    color: #333333;
+    
+}
+
+#header_logo img {
+    width: 160px;
+    transform: scale(1.6) translateY(20%);
+    transition: transform 1s ease, scale 1s ease;
+}
+
+.hover {
+    transform: scale(1) translateY(0%);
+}
+
+
